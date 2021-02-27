@@ -12,5 +12,5 @@ There is no publicly hosted version of this bot. In order to host, you must:
 
 ## FAQ
 
-Q: Npm install fails with a node-gyp error
+Q: Npm install fails with a node-gyp error <br>
 A: Make sure all of the NPM packages are up to date. While dependabot is running on this repo it doesn't always catch everything.
