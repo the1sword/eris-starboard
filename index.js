@@ -23,7 +23,7 @@ client.on('messageReactionAdd', async (message, emoji, user) => {
   const msg = await channel.getMessage(message.id);
   const stars = (await msg.getReaction('⭐', msg.reactions['⭐'].count)).filter(u => u.id !== msg.author.id && !client.users.get(u.id).bot).length;
 
-  if (stars < 0) return;
+  if (stars <= process.env.STARSREQUIRED) return;
 
   if (msg.content.length === 0 && msg.attachments.length === 0 && (!msg.embeds[0] || msg.embeds[0].type !== 'image')) return;
 
