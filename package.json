@@ -1,0 +1,25 @@
+{
+  "name": "eris-starboard",
+  "version": "1.0.0",
+  "description": "A simple starboard discord bot using Eris and sqlite.",
+  "main": "index.js",
+  "dependencies": {
+    "better-sqlite3": "^7.1.2",
+    "dotenv": "^8.2.0",
+    "eris": "^0.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the1sword/eris-starboard.git"
+  },
+  "author": "The1Sword",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/the1sword/eris-starboard/issues"
+  },
+  "homepage": "https://github.com/the1sword/eris-starboard#readme"
+}
