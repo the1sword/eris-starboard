@@ -62,7 +62,7 @@ client.on('messageReactionAdd', async (message, emoji, user) => {
   } else {
     const starMessage = await starboard.getMessage(starId)
     if (!starMessage) return
-    await starMessage.edit(`**__Starboard:__** ${stars} ⭐ - <#${msg.channel.id}> ${msg.author.username}#${msg.author.discriminator} has made it!`)
+    await starMessage.edit(`**__Starboard:__** ${stars} ⭐ - <#${msg.channel.id}> <@${msg.author.id}> has made it!`)
   }
 })
 
