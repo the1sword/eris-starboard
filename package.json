@@ -6,7 +6,7 @@
   "dependencies": {
     "better-sqlite3": "^7.1.4",
     "dotenv": "^8.2.0",
-    "eris": "^0.14.0"
+    "eris": "^0.15.0"
   },
   "devDependencies": {
     "eslint": "^7.23.0",
