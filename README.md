@@ -7,8 +7,9 @@ There is no publicly hosted version of this bot. In order to host, you must:
 1) Make sure you have a machine w/ nodejs and npm
 2) Clone this repo `git clone https://github.com/the1sword/eris-starboard.git`
 3) Install dependencies with `npm install`
-4) Copy the example.env file and put in your own Discord bot token, as well as adding a number for how many stars should be required for a message to make the starboard make sure the bot is in the server you want to use it in!
-5) Run the bot with your process manager of choice.
+4) Copy the example.env file and put in your own Discord bot token, as well as adding a number for how many stars should be required for a message to make the starboard.
+5) Make sure the bot is in the server you want to use it in. Tools like the [Discord Permissions Calculator](https://discordapi.com/permissions.html#0) are incredibly helpful for generating invite links.
+6) Run the bot with your process manager of choice.
 
 ## FAQ
 
