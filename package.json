@@ -4,7 +4,7 @@
   "description": "A simple starboard discord bot using Eris and sqlite.",
   "main": "index.js",
   "dependencies": {
-    "better-sqlite3": "^7.2.0",
+    "better-sqlite3": "^7.3.1",
     "dotenv": "^8.5.1",
     "eris": "^0.15.1"
   },
