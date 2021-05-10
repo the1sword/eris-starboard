@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "better-sqlite3": "^7.3.1",
-    "dotenv": "^9.0.0",
+    "dotenv": "^9.0.1",
     "eris": "^0.15.1"
   },
   "devDependencies": {
